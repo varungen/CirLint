@@ -1,0 +1,27 @@
+========================================================================
+⚡ CirLint - Automated Hardware & PCB Design Verification Platform
+========================================================================
+Version: 1.0.0-Beta (Windows x64 Standalone)
+
+🚀 1-MINUTE QUICKSTART:
+1. Double-click 'Launch-CirLint.bat' or 'CirLint\CirLint.exe' to start.
+   (No Python or external runtime installation is required!)
+2. Click '⚡ Try Demo Board (Telematics Gateway)' to run an instant
+   full-board verification on a sample schematic.
+3. To audit your own hardware designs, click '📂 Open Project Folder...'
+   and choose your Altium (.SchDoc, .PcbDoc) or KiCad (.kicad_sch) workspace.
+4. Click '🚀 Run Full Board Review' to inspect:
+   - Floating reset / control pins & voltage domain mismatches
+   - Missing decoupling capacitors & proximity placement on PCB
+   - Obsolete, single-source, and NRND lifecycle supply chain alerts
+   - Instant executive PDF audit report generation
+
+🎁 PUBLIC BETA PROMO:
+Click the badge on the top-right corner to open Account Settings and
+click 'Public Beta Launch: Auto-Fill Free Pro License' (or enter key
+'CIRLINT-PRO-BETA-LAUNCH-2026') for unlimited reviews and timeline
+diffs during the open launch!
+
+Issues & Feedback: https://github.com/varungen/CirLint/issues
+Homepage: https://github.com/varungen/CirLint
+========================================================================
