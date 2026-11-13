@@ -1,7 +1,7 @@
 # CirLint ⚡
 ### AI-Powered Semantic & Datasheet-Aware Schematic and PCB Layout Review Platform
 
-> **CirLint** transforms hardware engineering reviews into an automated, verifiable pre-fab pipeline. It combines **Schematic Design Reviews (SDR)** and **PCB Physical Layout Reviews (LDR)** with verbatim manufacturer datasheet citations, IPC-2152 current analysis, 2D interactive canvas layout cross-probing, automated safe ECO change orders, and revision regression tracking across board spins.
+> **CirLint** is a **100% free, offline-first** desktop review tool for hardware engineers. It combines **Schematic Design Reviews (SDR)** and **PCB Physical Layout Reviews (LDR)** with verbatim manufacturer datasheet citations, IPC-2152 current analysis, 2D interactive canvas layout cross-probing, automated safe ECO change orders, and revision regression tracking across board spins.
 
 ---
 
@@ -15,7 +15,7 @@
                                                  │
                                  ┌───────────────▼───────────────┐
                                  │    CirLint Desktop Engine     │
-                                 │  (100% Offline & Local-First) │
+                                 │  (100% Free & Local-First)    │
                                  └───────┬───────────────┬───────┘
                                          │               │
             ┌────────────────────────────┴───┐       ┌───┴─────────────────────────────┐
@@ -43,41 +43,31 @@
 
 ---
 
-## 🚀 Standalone Windows Desktop App (Zero-Install)
+## 🚀 Standalone Windows Desktop App (Zero-Install, 100% Free)
 
-No Python, compiler, or external dependency setup is required. Your CAD files never leave your machine.
+No Python, compiler, account, license key, or external dependency setup is required. Your CAD files never leave your machine.
 
 1. **Download the Release**: Download **`CirLint-v1.0.0-Beta-Windows-x64.zip`** from [**Releases**](https://github.com/varungen/CirLint/releases).
 2. **Launch**: Extract the archive and double-click **`Launch-CirLint.bat`** or **`CirLint\CirLint.exe`**.
 3. **Try the Demo**: Click **`⚡ Try Demo Board (Telematics Gateway)`** on the landing screen to run an instant full-board audit in 5 seconds.
 4. **Audit Your Own CAD Projects**: Open any folder containing Altium (`.SchDoc`/`.PcbDoc`) or KiCad (`.kicad_sch`/`.kicad_pcb`) files.
 
-> 🎁 **Public Beta Launch Promo**: Click the account badge in the top-right corner and click **"Public Beta Launch: Click to Auto-Fill Free Pro License"** (or enter Key: **`CIRLINT-PRO-BETA-LAUNCH-2026`**) for unlimited reviews, multi-spin revision diffs, and executive PDF report generation!
-
 ---
 
 ## 🖥️ CirLint Desktop ("SourceTree for Hardware")
 
-### Key Capabilities:
+All capabilities are included completely free with unlimited audits:
+
 1. **📁 Auto-Detect Workspace & Multi-Revision Discovery**: Point CirLint to your project root; it automatically discovers your Altium (`.SchDoc`/`.PcbDoc`) or KiCad (`.kicad_sch`/`.kicad_pcb`) files—including multi-spin revision folders (`Rev 7` ➔ `Rev 10`).
 2. **🔲 2-Button Stage Gate**:
    - `⚡ Run Schematic Review`
    - `📐 Run PCB Layout Review`
    - `🚀 Run Full Board Review`
 3. **📊 Live Health Score & Delta**: Displays board readiness score (0–100%) and tracks progression across spins (`+40% vs Rev 9` • `Issues Resolved`).
-4. **👁️ Auto-Audit on Save (`Ctrl+S`)**: Optional background CAD file watcher triggers instant re-audits whenever you save in Altium or KiCad.
-5. **📂 Standardized Output**: Executive PDF sign-off reports and interactive 2D layout viewers are organized cleanly inside `<Your_Project>/CirLint_Audits/Rev_<N>/`.
-6. **🔒 100% Offline & Private**: Runs locally on your workstation with optional offline local LLM support (Qwen 2.5) or bring-your-own enterprise AWS Bedrock / Azure OpenAI endpoint.
-
----
-
-## 💰 Plans & Licensing
-
-| Plan | Pricing | Features & Quotas |
-| :--- | :--- | :--- |
-| **Community Free** | **$0** (Free Forever) | • Full Schematic & PCB Layout Verification<br>• Verbatim manufacturer datasheet citations with page numbers<br>• 1-Click Demo Board & instant local health scores |
-| **Pro Engineer (Beta)** | **$0 During Beta**<br>(Normally $49/mo) | • **Unlimited Scans & Multi-Spin Reviews**<br>• Multi-Revision Auto-Discovery & Timeline Diffs (`Rev 7` ➔ `Rev 10`)<br>• Offline & Enterprise AI Copilot (Qwen 2.5, Bedrock, Azure)<br>• Official Executive PDF Audit Certificate Generation<br>• BOM Supply Chain & Obsolete/NRND Component Alerts |
-| **Enterprise / Team** | **$199 / seat / mo** | • Automated GitHub Actions / GitLab CI/CD Gatekeeper<br>• Custom Corporate Verification Rulebooks & Jira/ERP Integration<br>• Team Central Dashboard & Multi-seat Sync<br>• Dedicated Support & SLA |
+4. **📑 Executive PDF Sign-Off & BOM Supply Chain**: Generates Jira/design-review ready PDF audit certificates, verbatim datasheet page citations, and obsolete/NRND part alerts.
+5. **👁️ Auto-Audit on Save (`Ctrl+S`)**: Optional background CAD file watcher triggers instant re-audits whenever you save in Altium or KiCad.
+6. **📂 Standardized Output**: Reports and interactive 2D layout viewers are organized cleanly inside `<Your_Project>/CirLint_Audits/Rev_<N>/`.
+7. **🔒 100% Offline & Private**: Runs locally on your workstation with optional offline local LLM support (Qwen 2.5) or bring-your-own enterprise AWS Bedrock / Azure OpenAI endpoint.
 
 ---
 
